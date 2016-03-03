@@ -41,7 +41,6 @@ else:
             try:
                 ann_file = open(args.annotations + '/' + element, 'r')
                 ann_key = ann_file.readline()
-                # TODO: prevent annotation as tab/space separated!
                 ann = key_to_list(ann_key)
                 ann_file.close()
             except StandardError:

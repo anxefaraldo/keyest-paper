@@ -8,7 +8,7 @@ from fodules.folder import make_unique_dir
 from argparse import ArgumentParser
 
 clock()
-parser = ArgumentParser(description="key estimation algorithm")
+parser = ArgumentParser(description="Key Estimation Algorithm")
 parser.add_argument("input",
                     help="directory with files to analyse")
 parser.add_argument("-v", "--verbose",

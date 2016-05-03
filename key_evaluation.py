@@ -8,7 +8,7 @@ from fodules.evaluate import *
 from futils.merge_files import merge_files
 from fodules.excel import matrix_to_excel
 
-parser = argparse.ArgumentParser(prog='Key Estimation Evaluation')
+parser = argparse.ArgumentParser(prog='Evaluation of the Key Estimation Algorithm')
 parser.add_argument("annotations",
                     help="dir with ground truth key annotations.")
 parser.add_argument("estimations",
@@ -97,7 +97,6 @@ else:
                                 'Cm', 'C#m', 'Dm', 'Ebm', 'Em', 'Fm',
                                 'F#m', 'Gm', 'G#m', 'Am', 'Bbm', 'Bm'),
                     label_cols=('C', 'C#', 'D', 'Eb', 'E', 'F',
-                                'F#', 'G', 'G#', 'A', 'Bb', 'B',
                                 'Cm', 'C#m', 'Dm', 'Ebm', 'Em', 'Fm',
                                 'F#m', 'Gm', 'G#m', 'Am', 'Bbm', 'Bm'),
                     filename=args.estimations + '/confusion_matrix.xls')

@@ -7,7 +7,7 @@ In N. Ferro (Ed.), *Proceedings of the 38th European Conference on Information R
 
 ### Installation
 
-The method and code are based in *Essentia*, a library for Music Information Retrieval written in C++. 
+The method and code are programmed in *Essentia*, a library for Music Information Retrieval written in C++. 
 Download and build instructions for the most recent version are available at:
 
 http://essentia.upf.edu/
